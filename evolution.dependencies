@@ -1,0 +1,12 @@
+[
+  {
+    "repository": "device_samsung_gts4lv-common",
+    "target_path": "device/samsung/gts4lv-common",
+    "branch": "vic"
+  },
+  {
+    "repository": "vendor_samsung_gts4lv",
+    "target_path": "vendor/samsung/gts4lv",
+    "branch": "vic"
+  }
+]
