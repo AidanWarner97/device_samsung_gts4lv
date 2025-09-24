@@ -24,6 +24,9 @@ $(call inherit-product, device/samsung/gts4lv/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_tablet.mk)
 
+# EVO FLAGS
+TARGET_USES_MINI_GAPPS := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := gts4lv
 PRODUCT_NAME := lineage_gts4lv
